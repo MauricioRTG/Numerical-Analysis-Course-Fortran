@@ -5,12 +5,7 @@ contains
     real function f(x)
         implicit NONE
         real, intent(in) :: x
-        !real:: a, z
         f = (x**3)+(4*X**2)-10
-        !z = x/(1 - x + x**2)
-        !a=  z**21
-        !f = (1+x)*a/2
-        !f= -1564000 + 1000000*exp(x) + ((435000)*(exp(x)-1))/x
         return
     end function
 

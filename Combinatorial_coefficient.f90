@@ -4,9 +4,7 @@ program Combiantional_coefficient
         integer, dimension(m):: combinational1
 
         call combinational(m, combinational1)
-       
-
-    
+        
 end program Combiantional_coefficient
 
 subroutine combinational(coeficiente, combinational1)
